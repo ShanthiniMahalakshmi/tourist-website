@@ -1,0 +1,37 @@
+body {
+  background-color: #000000;
+  background-image: linear-gradient(147deg, #000000 0%, #2c3e50 74%);
+  color: #fff;
+  font-family: sans-serif;
+  padding: 1rem;
+}
+.header {
+  font-size: 50em;
+}
+.titleholder {
+  content: "";
+  height: 2px;
+  background: #fff;
+  display: inline-block;
+  width: 270px;
+}
+
+.content-type {
+  font-weight: 100;
+  font-size: 20dp;
+  color: #c9c9c9;
+  font-style: italic;
+  font-variant: initial;
+  font-family: monospace;
+}
+.faq_item {
+  border: 2px solid #2c3e50;
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  /* max-width: for small devices */
+  max-width: 320px;
+}
