@@ -11,6 +11,7 @@ import chat from "./chat";
 function App() {
   return (
     <>
+    
       <Router>
         <Navbar />
         <Switch>
